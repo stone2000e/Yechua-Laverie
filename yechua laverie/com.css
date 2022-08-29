@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid teal;
+    position:  fixed;
+    top: 0px;
+    background-color: white;
+    
+    width: 100%;
+
+}
+nav h1{
+    color: teal;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+    
+}
+nav .onglets a{
+    text-decoration: none;
+    color: teal;
+    margin-right: 10px;
+    border-bottom: 1px solid teal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid teal;
+
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    color: teal;
+    border-bottom: 1px solid teal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid teal;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+}
+
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.main{
+  margin: 20px;
+  margin-top: 80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+/* Toutes les cartes */
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+}
+.cards .card{
+  margin-right: 35px;
+  cursor:pointer;
+}
+.cards .card img{
+  width: 400px;
+  height: ;
+  align-items: center;
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.cards .card .card-body p{
+  margin-top: -10px;
+}
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid teal;
+    background-color:  rgb(64,128 ,128);;
+    color: white;
+    padding: 30px 100px;;
+    width: 100%;
+   
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid skyblue;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

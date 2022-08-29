@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid teal;
+    position:  fixed;
+    top: 0px;
+    background-color: white;
+    
+    width: 100%;
+
+}
+nav h1{
+    color: teal;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+    
+}
+nav .onglets a{
+    text-decoration: none;
+    color: teal;
+    margin-right: 10px;
+    border-bottom: 1px solid teal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid teal;
+
+
+}
+
+header{
+
+
+    width:px; 
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('image/ocean.jpg');
+    background-size:cover; ;
+    color: #fff;
+    padding:140px;
+    
+    shadow: 6px 6px 6px lack;
+    
+
+}
+
+
+}
+
+.haut{
+  position: absolute;
+  top: -50px;
+  left:0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+}
+
+
+.haut h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+.haut h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.haut button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:#000;
+    border:none;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    align-items: center;
+
+}
+    
+}
+button
+{
+     text-decoration: none;
+     list-style: none; 
+}
+title{
+    color: teal;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    color: teal;
+    border-bottom: 1px solid teal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid teal;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+}
+h5{
+   background-color: teal;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    width: 100%;
+    color: black;
+    flex-direction: column;
+    height: auto;
+    
+    
+}
+
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.main{
+  margin: 20px;
+  margin-top: 30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+/* Toutes les cartes */
+
+.carte
+{
+  border: 0.5px ;
+  border-radius: 20px/10px;
+  box-shadow: 5px 3px 3px teal;
+}
+
+.cartes
+{
+  border: 0.5px ;
+  border-radius: 20px/10px;
+  box-shadow: 5px 3px 3px teal;
+}
+.car
+{
+  border-radius: 20px/10px;
+  box-shadow: 5px 3px 3px teal;
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+.cards .card{
+  margin-right: 35px;
+  cursor:pointer;
+}
+.cards .card img{
+  width: 350px;
+  height: auto ;
+  align-items: center;
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  color: teal;
+}
+.cards .card .card-body p{
+  margin-top: -10px;
+  
+}
+
+
+  
+.princip{
+   margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.princip .content .cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.princip .content .cart .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:teal;
+   color:#fff;
+}
+.princip .content .cart .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+       }
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid teal;
+    background-color:#008080;
+    color: white;
+    padding: 30px 100px;;
+    width: 89%;
+   position: cover;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid skyblue;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact {
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;}
+      }
+@media all and (max-width: 1024px) {
+
+.left {
+  width: 110px;
+  float: right;
+  margin-left: 15px;
+}
+
+.cart .left {
+  width: 150px;
+
+}
+h1{
+  margin-left: 60px;
+}
+.haut button{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+}
